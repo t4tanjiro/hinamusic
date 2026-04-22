@@ -9,18 +9,18 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", 20574660))
+API_HASH = getenv("API_HASH", "6e21188e487b96af1ff5429dedada8ff")
 
-EVAL = list(map(int, getenv("EVAL", "7716352578 7091230649").split()))
+EVAL = list(map(int, getenv("EVAL", "7958077163 7091230649").split()))
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "8392700955:AAHnFaLUPxB1WY1NH109hRYh8lLwjWgKy2M")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","Ownergit")
+OWNER_USERNAME = getenv("OWNER_USERNAME","t4tanjiro")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "NexikoBot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Hinata_X_Musics_robot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "Nexiko")
+BOT_NAME = getenv("BOT_NAME" , "Hinata")
 # ---------------------------------------------------------
 ASSUSERNAME = getenv("ASSUSERNAME" , "MissYumikoo")
 # ---------------------------------------------------------
@@ -28,7 +28,7 @@ ASSUSERNAME = getenv("ASSUSERNAME" , "MissYumikoo")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://rahul:rahulkr@cluster0.szdpcp6.mongodb.net/?retryWrites=true&w=majority")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -37,10 +37,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002237336934))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002317259468))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7427691214))
+OWNER_ID = int(getenv("OWNER_ID", 7958077163))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -55,7 +55,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/DAXXTEAM/DAXXMUSIC",
+    "https://github.com/t4tanjiro/hinamusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
@@ -69,8 +69,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/vclubtechv2")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/vclubtechv2")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/tbotz_update")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TBOT_CHATS")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
